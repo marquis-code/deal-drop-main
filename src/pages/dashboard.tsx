@@ -352,7 +352,7 @@ export default function Test(){
 
             <div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
               <form className="flex flex-1" action="#" method="GET">
-                <label for="search-field" className="sr-only">
+                <label htmlFor="search-field" className="sr-only">
                   Search
                 </label>
                 <div className="relative w-full">
@@ -441,7 +441,7 @@ export default function Test(){
 
                     <div className="sm:col-span-3">
                       <label
-                        for="first-name"
+                        htmlFor="first-name"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         First name
@@ -451,7 +451,6 @@ export default function Test(){
                           type="text"
                           name="first-name"
                           id="first-name"
-                          autocomplete="given-name"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -459,7 +458,7 @@ export default function Test(){
 
                     <div className="sm:col-span-3">
                       <label
-                        for="last-name"
+                        htmlFor="last-name"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Last name
@@ -469,7 +468,6 @@ export default function Test(){
                           type="text"
                           name="last-name"
                           id="last-name"
-                          autocomplete="family-name"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -477,7 +475,7 @@ export default function Test(){
 
                     <div className="col-span-full">
                       <label
-                        for="email"
+                        htmlFor="email"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Email address
@@ -487,7 +485,6 @@ export default function Test(){
                           id="email"
                           name="email"
                           type="email"
-                          autocomplete="email"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -495,7 +492,7 @@ export default function Test(){
 
                     <div className="col-span-full">
                       <label
-                        for="username"
+                        htmlFor="username"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Username
@@ -509,7 +506,6 @@ export default function Test(){
                             type="text"
                             name="username"
                             id="username"
-                            autocomplete="username"
                             className="flex-1 border-0 bg-transparent py-1.5 pl-1 text-white focus:ring-0 sm:text-sm sm:leading-6"
                             placeholder="janesmith"
                           />
@@ -519,7 +515,7 @@ export default function Test(){
 
                     <div className="col-span-full">
                       <label
-                        for="timezone"
+                        htmlFor="timezone"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Timezone
@@ -563,7 +559,7 @@ export default function Test(){
                   <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:max-w-xl sm:grid-cols-6">
                     <div className="col-span-full">
                       <label
-                        for="current-password"
+                        htmlFor="current-password"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Current password
@@ -573,7 +569,6 @@ export default function Test(){
                           id="current-password"
                           name="current_password"
                           type="password"
-                          autocomplete="current-password"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -581,7 +576,7 @@ export default function Test(){
 
                     <div className="col-span-full">
                       <label
-                        for="new-password"
+                        htmlFor="new-password"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         New password
@@ -591,7 +586,6 @@ export default function Test(){
                           id="new-password"
                           name="new_password"
                           type="password"
-                          autocomplete="new-password"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -599,7 +593,7 @@ export default function Test(){
 
                     <div className="col-span-full">
                       <label
-                        for="confirm-password"
+                        htmlFor="confirm-password"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Confirm password
@@ -609,7 +603,6 @@ export default function Test(){
                           id="confirm-password"
                           name="confirm_password"
                           type="password"
-                          autocomplete="new-password"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
@@ -642,7 +635,7 @@ export default function Test(){
                   <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:max-w-xl sm:grid-cols-6">
                     <div className="col-span-full">
                       <label
-                        for="logout-password"
+                        htmlFor="logout-password"
                         className="block text-sm font-medium leading-6 text-white"
                       >
                         Your password
@@ -652,7 +645,6 @@ export default function Test(){
                           id="logout-password"
                           name="password"
                           type="password"
-                          autocomplete="current-password"
                           className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                         />
                       </div>
