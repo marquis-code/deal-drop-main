@@ -68,8 +68,8 @@ const EcommercePage = () => {
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
                   <img
-                    className="h-14 w-auto"
-                    src="/Dealdrop-01.jpg"
+                    className="h-8 w-auto"
+                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                     alt="Your Company Logo"
                   />
                 </a>
@@ -98,25 +98,25 @@ const EcommercePage = () => {
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Bes Selling
+                      Product
                     </a>
                     <a
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      New Arrivals
+                      Features
                     </a>
                     <a
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Clearance
+                      Marketplace
                     </a>
                     <a
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                     Membership
+                      Company
                     </a>
                   </div>
                   <div className="py-6">
@@ -182,7 +182,7 @@ const EcommercePage = () => {
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="#"
-                      className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                      className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Shop New Arrivals
                     </a>
